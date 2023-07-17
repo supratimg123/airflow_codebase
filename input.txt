@@ -1,0 +1,17 @@
+######### For query of players playing with a specific brand of bat ##############
+
+{
+"dag_id":"brand4567",
+"query_type":"brands",
+"branch_name":["brand"],
+"input_list":["mrf"]     ## only 'input_list' and 'dag_id' can be modified
+}
+
+######### For query of brands of bat played by a specific player ##############
+
+{
+"dag_id":"brand4567",
+"query_type":"players",
+"branch_name":["person"],
+"input_list":["yuvraj singh"]     ## only 'input_list' and 'dag_id' can be modified
+}
