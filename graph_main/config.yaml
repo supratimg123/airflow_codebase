@@ -1,0 +1,7 @@
+graph_url : bolt://3.111.125.35:7687
+acquisitiontimeout : 420.0
+connectiontimeout : 300.0
+graph_username : neo4j
+graph_password : 1@B3ngal1
+
+
