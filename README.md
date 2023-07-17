@@ -1,7 +1,7 @@
 # airflow_codebase
 Create a virtual environment. <br>
 Go to location of "requirements.txt" and install dependencies. <br>
-Check for an folder "airflow" created at "/home/user/". otherwise locate it. Copy "graph_main" folder within "home/user/airflow/dags/". copy "dag.py" outside "graph_main". <br>
+Check for a folder "airflow" created at "/home/user/". Otherwise locate it. Copy "graph_main" folder within "home/user/airflow/dags/". Copy "dag.py" outside "graph_main". <br>
 Install neo4j desktop from the website of neo4j. Create a new project there and copy all nodes from "bat_brands.docx", paste in neo4j browser and run. Our db is ready. <br>
 There are two types of input one for the brand name and other for player name. Give any name of bat or brand which you want to query from the graph database nodes. <br>
 Activate virtual env and open three terminal. From the airflow folder location open the airflow webserver and airflow scheduler. From the third one run dag.py from proper location. Before that write the json input inside "dag.py". <br>
